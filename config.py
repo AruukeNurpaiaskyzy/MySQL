@@ -1,4 +1,4 @@
 host = "localhost"
-user = "your_user"
-password = "ypur_password"
-db_name = "ypur_db_name"
+user = "root"
+password = "your_password"
+db_name = "your_db_name"
