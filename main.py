@@ -9,6 +9,14 @@ try:
     cursorclass = pymysql.cursors.DictCursor
 )
     print ("Successfully connected ...")
+    print("#" * 20)
+
+    try:
+        # cursor  = connection.cursor()
+        with connection.cursor() as cursor:
+             
+    finally:
+        connection.close()
 except Exception as ex:
     print("Connection refused...")
     print(ex)
